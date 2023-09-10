@@ -12,10 +12,7 @@
     "dev": "netlify dev",
     "build": "webpack --mode production",
     "lint": "eslint --fix --ext .js,.vue",
-    "test:unit": "jest --watchAll",
-    "test:unit:silent": "jest --watchAll --silent",
-    "test:e2e": "cypress open",
-    "test:e2e:headless": "cypress run"
+    "test:unit": "jest --watchAll"
   },
   "keywords": [],
   "author": "",
